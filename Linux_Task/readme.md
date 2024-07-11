@@ -14,7 +14,7 @@ internStudio开发及机界面选择自定义服务，并将相应的指令在�
 
 ![pic4](./pics/4.png)
 
-在本地创建helloworld.py文件
+在本地创建helloworld.py文件,并使用命令`pip install gradio`下载必要的包
 ```python
 import socket
 import re
