@@ -1,4 +1,4 @@
-# Python Task
+# Linux Task
 
 ## 1.完成SSH连接与端口映射并运行hello_morld.py
 首先在VSCode扩展中下载SSH插件
