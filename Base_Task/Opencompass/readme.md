@@ -1,6 +1,6 @@
 # OpenCompass 评测 InternLM-1.8B 实践
 
-##### 使用 OpenCompass 评测 internlm2-chat-1.8b 模型在 MMLU 数据集上的性能，记录复现过程并截图。
+### 使用 OpenCompass 评测 internlm2-chat-1.8b 模型在 MMLU 数据集上的性能，记录复现过程并截图。
 
  首先创建cuda11.7-conda，10%A100的开发机，进入开发机后进行opencompass的环境配置
 
@@ -61,7 +61,7 @@ export MKL_THREADING_LAYER=GNU
 
  评测需要大概需要8小时。
 
- ##### 调用API使用opencompass测评
+ ## 调用API使用opencompass测评
 
  以Qwen为例
 
