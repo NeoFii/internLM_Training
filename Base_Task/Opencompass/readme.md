@@ -60,3 +60,37 @@ export MKL_THREADING_LAYER=GNU
  ![pic4](./pic/4.png)
 
  评测需要大概需要8小时。
+
+ ##### 调用API使用opencompass测评
+
+ 以Qwen为例
+
+ 首先进入官网申请QwenAPI，初始有一定数量免费
+
+https://dashscope.console.aliyun.com/apiKey
+
+
+在`/root/opencompass/configs/api_examples/eval_api_qwen.py`中的key换成自己的api_key
+
+执行下面的命令来评测
+
+```bash
+conda activate opencompass
+
+cd opencompass
+
+python tools/test_api_model.py configs/api_examples/eval_api_qwen.py
+```
+
+报错：`ModuleNotFoundError: No module named 'dashscope'`
+
+![pic5](./pic/5.png)
+
+解决办法：`pip install dashscope`
+
+再执行命令`python tools/test_api_model.py configs/api_examples/eval_api_qwen.py`
+
+结果
+
+![pic6](./pic/6.png)
+
