@@ -200,3 +200,4 @@ demo.launch(server_name='0.0.0.0',
 
 ![result](./assets/result.png)
 
+体验地址：https://huggingface.co/spaces/Fiie/mindsearch
